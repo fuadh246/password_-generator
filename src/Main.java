@@ -50,6 +50,8 @@ public class Main extends javax.swing.JFrame {
         });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Password generator");
+
 
         jLabel1.setText("Length");
 

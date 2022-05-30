@@ -175,8 +175,8 @@ public class Main extends javax.swing.JFrame {
         if (inSChar.isSelected()) {
             schar = true;
         }
-        if (Integer.parseInt(value) < 0) {
-            JOptionPane.showMessageDialog(this, "Enter all the data!" + value + "," + num + upcase + schar);
+        if (Integer.parseInt(value) < 4) {
+            JOptionPane.showMessageDialog(this, "Please enter a value > 4!");
         } else {
             viewOutput.setText(String.valueOf(generatePassword(l, upcase, num, schar)));
         }
